@@ -19,4 +19,6 @@ module.exports = {
     config.resolve.alias["@screens"] = path.resolve(sourcePath, "screens");
     return config;
   },
+  basePath: "/pace4life",
+  assetPrefix: "/pace4life"
 };
